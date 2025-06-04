@@ -7,7 +7,7 @@
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/inventory-app.git
+git clone https://github.com/RutwijRick/laravel-crud.git
 cd inventory-app
 composer install
 cp .env.example .env
