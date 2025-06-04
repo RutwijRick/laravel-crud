@@ -1,2 +1,16 @@
-# laravel-crud
-Manage products and stock of products with simple CRUD operations with category, materials and stock page
+## Laravel Inventory Project
+
+### Requirements
+- PHP 8.1+
+- Composer
+- MySQL
+
+### Installation
+```bash
+git clone https://github.com/yourusername/inventory-app.git
+cd inventory-app
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve
